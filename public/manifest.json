@@ -1,0 +1,30 @@
+{
+  "manifest_version": 3,
+  "name": "ComPlate",
+  "version": "0.5",
+  "description": "This tool is to be used within Amazon RISC department for ease of sending SIM blurbs.",
+  "permissions": ["scripting", "activeTab", "storage"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://sim.amazon.com/*", "https://issues.amazon.com/*"],
+      "js": ["content.js"],
+      "css": ["content.css"]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "index.html",
+        "static/*",
+        "blurbs/*.json",
+        "blurbs/*.json",
+        "BlurbinatorLogo.png",
+        "static/*"
+      ],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}

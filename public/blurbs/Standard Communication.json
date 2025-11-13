@@ -1,0 +1,58 @@
+{
+  "Category A - Verification Outcome": {
+    "Scenario 1": "Message: The submitted document has been reviewed and appears valid. Proceed with normal processing.",
+    "Scenario 2": "Message: The submitted document appears altered or invalid. Please take action according to your workflow."
+  },
+  "Category B - Third Party Confirmation": {
+    "Scenario 1": "Message: The external party confirmed the information is genuine.",
+    "Scenario 2": "Message: The external party confirmed the information is not valid."
+  },
+  "Category C - Compliance Review": {
+    "Scenario 1": "Message: The provided document or marking does not meet compliance requirements.",
+    "Scenario 2": "Message: The provided information meets all required standards."
+  },
+  "Category D - Document Quality": {
+    "Scenario 1": "Message: The provided image or file is too low quality to review accurately.",
+    "Scenario 2": "Message: The document content is clear and readable. Proceed as normal."
+  },
+  "Category E - Mismatched Information": {
+    "Scenario 1": "Message: Information in the submitted documents does not match. Please verify identifiers.",
+    "Scenario 2": "Message: The submitted documents match correctly and can be accepted."
+  },
+  "Category F - Clarification Request": {
+    "Scenario 1": "Message: Please provide clarification or additional information to support your submission.",
+    "Scenario 2": "Message: Clarification received and confirmed. Proceed with next steps."
+  },
+  "Category G - Branding": {
+    "Scenario 1": "Message: The provided branding information cannot be verified.",
+    "Scenario 2": "Message: The brand and identifiers are valid and verified."
+  },
+  "Category H - Language and Translation": {
+    "Scenario 1": "Message: The submitted document is not in a supported language. Please provide a translation.",
+    "Scenario 2": "Message: Document language verified. No further action required."
+  },
+  "Category I - Certificates and Reports": {
+    "Scenario 1": "Message: The report meets required standards and is valid.",
+    "Scenario 2": "Message: The report is incomplete or does not meet the requirements."
+  },
+  "Category J - Regional Cases": {
+    "Scenario 1": "Message: The case applies to a specific regional requirement. Proceed with regional process.",
+    "Scenario 2": "Message: No regional restriction identified. Follow global process."
+  },
+  "Category K - Product Review Checklist": {
+    "Scenario 1": "Message: The document checklist is complete and compliant.",
+    "Scenario 2": "Message: Missing or invalid items in the checklist. Please request updates."
+  },
+  "Category L - Product Notification": {
+    "Scenario 1": "Message: Notification verified and accepted.",
+    "Scenario 2": "Message: Notification invalid or incomplete. Please correct and resubmit."
+  },
+  "Category M - Product Label": {
+    "Scenario 1": "Message: The label contains all required information.",
+    "Scenario 2": "Message: The label is missing key details or not in the expected language."
+  },
+  "Category N - Case Follow-Up": {
+    "Scenario 1": "Message: A follow-up request has been submitted and is awaiting confirmation.",
+    "Scenario 2": "Message: The follow-up process is complete. No further action required."
+  }
+}
